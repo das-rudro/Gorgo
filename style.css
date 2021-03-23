@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.header{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.header-wrapper{
+    display: flex;
+}
+
+.logo{
+    flex-basis: 20%;
+}
+
+.menu{
+    flex-basis: 50%;
+    margin-top: 22px;
+}
+
+.menu ul{
+   
+}
+
+.menu ul li{
+     list-style: none;
+     display: inline;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    margin-right: 30px;
+    color: #555367;
+    font-size: 16px;
+}
+
+.menu ul li:hover a{
+    color: #292640;
+}
+
+.button{
+    flex-basis: 30%;
+    margin-top: 12px;
+}
+
+.button button{
+    background: #ff6162;
+    padding: 10px 25px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 7px;
+}
+
+.button button:hover{
+    background-color: gray;
+}
+
+.intro{
+    width:100% 
+}
+
+.intro-content{
+    display: flex;   
+    height: 90vh;
+    align-items: center;
+}
+
+.left-item{
+    flex-basis: 40%;
+    margin-right: 10%;
+}
+
+.left-item h1{
+    color: #292640;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.left-item p{
+    color: #B1AFAB;
+    margin-bottom: 18px;
+}
+
+.right-image{
+    flex-basis: 50%;
+}
+
+.gallery{
+    width: 100%;
+}
+
+.top-item{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.top-item h2{
+    color: #292640;
+}
+
+.top-item p{
+    color: #B1AFAB;
+    margin-top: 20px;
+}
+
+.gallery{
+    height: 90vh;
+    align-items: center;
+}
+
+.gallery-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.image01{
+    margin-right: 5%;
+}
+
+.image{
+    box-shadow: 10px 8px 20px 5px grey;
+}
+
+.image-bottom{
+    text-align: center;
+    margin-top: 25px;
+    color: dimgray;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.features-item{
+    width: 100%;
+}
+
+.bottom-item-wrapper{
+    display: flex;
+    align-items: ;
+}
+
+.bottom-item{
+    width: 25%;
+    margin-right: 2%;
+    margin-bottom: 5%;
+    background-color: #F5F5F5;
+    text-align: center;
+    padding: 25px 38px;
+}
+
+.bottom-item-icon{
+    margin-bottom: 30px;
+    font-size:xx-large;
+}
+
+.bottom-item-features{}
+
+.bottom-item-features h2{
+    font-size: larger;
+    margin-bottom: 10px;
+    color: #292640;
+}
+
+.bottom-item-features p{
+    color: #B1AFAB;
+    font-size: small;
+}
+
+.footer{
+    background-color: #292640;
+    background-color: #292640;
+    text-align: center;
+    display: flex;
+    height: 50vh;
+    align-items: center;
+}
+
+.footer h1{
+    color: white;
+    margin-bottom: 30px;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.copyright {
+    color: #908E9C;
+}
+
+.copyright span{
+    margin-left: 10px;
+}
+
+.footer-button{
+    margin-bottom: 25px;
+}
+
+.footer-button button{
+    background: #ff6162;
+    padding: 10px 25px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 7px;
+}
+
